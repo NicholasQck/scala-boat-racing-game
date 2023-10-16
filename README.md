@@ -11,6 +11,7 @@ How to play:<br/>
 
 Start game:<br/>
 ![image](https://github.com/NicholasQck/scala-boat-racing-game/assets/102132367/c19b86be-de66-4998-8bfe-a1e7a522c0f8)
+<br/>
 The game offers 3 levels of difficulty, the level of difficulty corresponds to the number of traps (snakes) and currents (ladders) in the game.<br/>
 Since this game is designed for 2 players, names of both players must be provided in order to start the game.<br/>
 
