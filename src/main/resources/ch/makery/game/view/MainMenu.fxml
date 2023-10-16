@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="470.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.makery.game.view.MainMenuController">
+   <children>
+      <ImageView fitHeight="470.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../images/menu_image.png" />
+         </image>
+      </ImageView>
+      <ButtonBar layoutX="104.0" layoutY="379.0" prefHeight="40.0" prefWidth="592.0">
+        <buttons>
+          <Button mnemonicParsing="false" onAction="#playSelected" prefHeight="66.0" prefWidth="168.0" text="Play" />
+            <Button mnemonicParsing="false" onAction="#howToPlaySelected" prefHeight="103.0" prefWidth="227.0" text="How to Play" />
+            <Button mnemonicParsing="false" onAction="#scoreboardSelected" prefHeight="178.0" prefWidth="302.0" text="Scoreboard" />
+        </buttons>
+      </ButtonBar>
+   </children>
+</AnchorPane>
